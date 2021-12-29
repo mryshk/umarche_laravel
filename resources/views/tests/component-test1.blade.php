@@ -2,8 +2,7 @@
   <x-slot name="header">
     ヘッダーテスト１
   </x-slot>
-  <x-slot name="body">
-    ボディ
-  </x-slot>
   component-test1
+
+  <x-tests.card title="タイトル" content="本文" />
 </x-tests.app>
