@@ -1,1 +1,29 @@
-component-test1
+<table>
+  <thead>
+    <th>
+      <p>言葉</p>
+    </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p>おおおお</p>
+      </td>
+      <td>
+        <p>oooooo</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>
+          oiouuuu
+        </strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<x-tests.app>
+  component-test1
+</x-tests.app>
