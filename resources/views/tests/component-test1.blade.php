@@ -1,29 +1,9 @@
-<table>
-  <thead>
-    <th>
-      <p>言葉</p>
-    </th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>おおおお</p>
-      </td>
-      <td>
-        <p>oooooo</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>
-          oiouuuu
-        </strong>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
 <x-tests.app>
+  <x-slot name="header">
+    ヘッダーテスト１
+  </x-slot>
+  <x-slot name="body">
+    ボディ
+  </x-slot>
   component-test1
 </x-tests.app>
